@@ -63,9 +63,12 @@ header {
 	padding: 1rem 3rem 3rem 3rem;
 	margin: 3rem;
 	border-radius: 0.2rem;
-	@media screen and (max-width: 768px) {
-		padding: 0.3rem;
-	  }
+  
+	@media screen and (max-width: 486px) {
+	  margin: 5px;
+	  padding: 5px;
+	  font-size: 10px;
+	}
 }
 .header-form h3 {
 	font-size: 1.2rem;
