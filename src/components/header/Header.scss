@@ -157,6 +157,9 @@ header {
 	overflow: hidden;
 	background: #fff;
 	box-shadow: rgba(17 17 17 / 15%) 0px 0.5rem 1rem;
+	@media screen and (max-width: 468px) {
+		width: 350px;
+	}
 }
 .destination-search .box-container .box .content {
 	padding: 2rem;
