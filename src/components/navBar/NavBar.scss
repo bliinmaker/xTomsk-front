@@ -21,7 +21,10 @@
 	opacity: 0.95;
 	@media screen and (max-width: 768px) {
 		font-size: 1.4rem;
-	  }
+	}
+	@media screen and (max-width: 368px) {
+		font-size: 1.1rem;
+	}
 }
 
 .navigation-menu {
@@ -73,12 +76,13 @@
 	}
 
 	.navigation-menu ul {
-		flex-direction: column;
+		// flex-direction: column;
 		position: absolute;
 		top: 60px;
+		z-index: 1;
 		left: 0;
 		width: 100%;
-		height: calc(100vh - 60px);
+		// height: calc(400px - 60px);
 		background-color: black;
 		border-top: 1px solid black;
 		display: none;
@@ -92,7 +96,7 @@
 	.navigation-menu li a {
 		color: #fff;
 		width: 100%;
-		padding: 1.5rem 0;
+		padding: 1rem 0;
 	}
 
 	.navigation-menu li:hover {
@@ -103,8 +107,6 @@
 		display: block;
 	}
 }
-
-
 
 //.navbar {
 //	position: fixed;
